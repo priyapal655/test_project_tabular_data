@@ -23,19 +23,18 @@ wheels/
 .installed.cfg
 *.egg
 
-# Data
-*.csv
-*.pkl
-*.joblib
+# Data - keep example files for demonstration
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+!data/raw/heat_pump_leads.csv
+!data/processed/scored_leads.csv
 
-# Models
-models/*.pkl
-models/*.joblib
+# Models - keep example models for demonstration
 !models/.gitkeep
+!models/*.joblib
+!models/*.png
 
 # Jupyter
 .ipynb_checkpoints
